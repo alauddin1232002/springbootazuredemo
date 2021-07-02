@@ -11,7 +11,7 @@ public class SpringbootazuredemoApplication {
 	
 	@GetMapping("/pgr")
 	public String getmessage() {
-		return "my first program on azure";
+		return "my first program on azure with second deployment";
 	}
 
 	public static void main(String[] args) {
